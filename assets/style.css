@@ -11,8 +11,8 @@
 @media screen and (min-width: 390px) and (max-width: 844px) {
   body {
     overflow-x: hidden;
-    position: fixed;
-  } 
+    overflow-y: auto;
+    } 
   
   .navbar {
     width: 100%;
