@@ -2,10 +2,16 @@
 let touchstartX = 0;
 let touchendX = 0;
 
-document.addEventListener('touchstart', function(event) {
+document.addEventListener('touchstart', function (event) {
     touchstartX = event.changedTouches[0].screenX;
 }, false);
 
-document.addEventListener('touchend', function(event) {
+document.addEventListener('touchend', function (event) {
     touchendX = event.changedTouches[0].screenX;
 }, false);
+
+function handleSwipe() {
+    if (touchendX < touchstartX) {
+        window.location.href = './html/football.html';
+    }
+}
