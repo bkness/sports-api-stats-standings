@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -39,10 +39,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Select Team
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Team 1</a>
-                        <a class="dropdown-item" href="#">Team 2</a>
-                        <a class="dropdown-item" href="#">Team 3</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="teamDropdown">
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -65,7 +62,14 @@
 
     <div class="container mt-5">
         <div class="row">
-
+            <h1>This is football</h1>
+            <form>
+                <div class="form-group">
+                    <label for="teamName">Team Name</label>
+                    <input type="text" class="form-control" id="teamName" placeholder="Enter team name">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
         </div>
     </div>
     </div>
@@ -73,7 +77,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/home.js">
+    <script src="../assets/football.js"></script>
 </body>
 
 </html>

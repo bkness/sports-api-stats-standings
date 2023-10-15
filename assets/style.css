@@ -2,20 +2,14 @@
   margin-top: 7px;
 }
 
-.football-button,
-.basketball-button,
-.baseball-button {
-    display: inline-block;
-    /* Add any other styles you want to apply */
-}
-
 .homeImage {
   width: 100%;
   height: 300px;
+  -webkit-user-drag: none;
 }
 
 @media (max-width: 767.98px) {
-    #sportButton {
+    .homeImage {
       width: 100%;
     }
 }
