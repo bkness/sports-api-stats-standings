@@ -1,5 +1,5 @@
 body {
-  -webkit-user-drag: none;
+  overscroll-behavior: none;
 }
 
 .col-md-4 {
