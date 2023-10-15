@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .col-md-4 {
   margin-top: 7px;
 }
@@ -9,15 +13,11 @@
 }
 
 @media screen and (min-width: 390px) and (max-width: 844px) {
+ 
   body {
-    overflow-x: hidden;
-    overflow-y: auto;
-    } 
-  
-  .navbar {
-    width: 100%;
+    overflow-x: none;
   }
-
+  
   .homeImage {
       width: 90%;
     }
