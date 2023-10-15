@@ -1,3 +1,7 @@
+body {
+  -webkit-user-drag: none;
+}
+
 .col-md-4 {
   margin-top: 7px;
 }
